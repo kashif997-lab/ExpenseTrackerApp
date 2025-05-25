@@ -1,0 +1,248 @@
+.tracker-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+}
+
+.tracker-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1e90ff;
+  margin-bottom: 2rem;
+}
+
+.form-card,
+.table-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.add-button {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #1c86ee;
+}
+
+.tracker-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.tracker-table th,
+.tracker-table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.tracker-table thead {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.tracker-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.total-remaining {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: right;
+  color: #1e90ff;
+}
+/* Customize react-datepicker input */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.react-datepicker__input-container input:focus {
+  border-color: #1e90ff;
+  outline: none;
+}
+
+/* Popup calendar styles */
+.react-datepicker {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.react-datepicker__header {
+  background-color: #1e90ff;
+  color: white;
+  border-bottom: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #333;
+  font-weight: 500;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 50%;
+}
+
+.react-datepicker__day:hover {
+  background-color: #e0f0ff;
+  border-radius: 50%;
+}
+.download-button {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.download-button:hover {
+  background-color: #218838;
+}
+
+.action-button {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.action-button.edit {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.action-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.action-button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.error-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffe5e5;
+  color: #d8000c;
+  border: 1px solid #f5c2c7;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.error-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.error-text {
+  flex: 1;
+}
+
+.dismiss-button {
+  background: none;
+  border: none;
+  color: #d8000c;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 8px;
+  line-height: 1;
+}
+.description-input {
+  resize: vertical;
+  max-height: 100px;
+  min-height: 60px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.description-preview {
+  font-size: 14px;
+  color: #444;
+  padding: 6px 10px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  margin-top: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-card,
+  .input-field,
+  .description-input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .tracker-table {
+    font-size: 12px;
+  }
+}
+
+
